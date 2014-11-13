@@ -1,0 +1,22 @@
+План работы л/р №1 и №2
+
+1. Настроить окружение (возможные варианты)
+установить OpenServer 
+добавить VirtualHost в Apache/nginx
+2. Настроить Yii2
+распаковать 'basic' шаблон в DocumentRoot (http://<domain>/basic/web)
+если возможно – настроить DocumentRoot на папку web из шаблона (http://<domain>)
+3. Сформировать Базу Данных в MySQL
+использовать InnoDB хранилище
+создавать внешние ключи и индексы
+4. Сгенерировать модели для таблиц
+использовать gii (http://<domain>/?r=gii)
+5. Сгенерировать CRUD для моделей
+использовать gii (http://<domain>/?r=gii)
+
+
+Ссылки
+1. OpenServer http://open-server.ru/
+2. VirtualHost http://httpd.apache.org/docs/2.2/vhosts/examples.html
+3. Gii http://www.yiiframework.com/doc-2.0/guide-start-gii.html
+
